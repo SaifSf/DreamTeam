@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };*/
 
-        signOut = (Button) findViewById(R.id.sign_out);
+
 
 
       /*  signOut.setOnClickListener(new View.OnClickListener() {
