@@ -24,9 +24,9 @@
 
    <!-- //////////for  welcommme activity -->
     <!-- Screens background color-->
-    <color name="bg_slider_screen1">#EF6C00</color>
-    <color name="bg_slider_screen2">#E91E63</color>
-    <color name="bg_slider_screen3">#03A9F4</color>
+    <color name="bg_slider_screen1">#ffcf0f</color>
+    <color name="bg_slider_screen2">#20d0cb</color>
+    <color name="bg_slider_screen3">#ff5b65</color>
 
 
 

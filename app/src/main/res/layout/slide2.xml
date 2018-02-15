@@ -10,19 +10,32 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:src="@drawable/shooooo" />
+
+        <LinearLayout
+            android:layout_width="305dp"
+            android:layout_height="205dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@android:color/white">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/slide_2_title"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/holo_blue_dark"
             android:layout_marginBottom="@dimen/slide_title"
             android:textSize="@dimen/slide_title"
             android:textStyle="bold" />
-        <ImageView
-            android:layout_width="@dimen/img_width_height"
-            android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/common_google_signin_btn_icon_light" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,7 +44,8 @@
             android:paddingRight="@dimen/desc_padding"
             android:text="@string/slide_2_desc"
             android:textAlignment="center"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/darker_gray"
             android:textSize="@dimen/slide_desc" />
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

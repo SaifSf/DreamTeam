@@ -26,15 +26,18 @@
     <string name="title_activity_welcome">Home Screen</string>
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
-    <string name="start">GOT IT</string>
-    <string name="slide_1_title">Sfs Workout</string>
-    <string name="slide_1_desc">Set your daily workout routine by the help of trainer</string>
-    <string name="slide_2_title">Bienvenu </string>
-    <string name="slide_2_desc">Learn about the different meditation techniques and practice them</string>
-    <string name="slide_3_title">Salemm cv </string>
-    <string name="slide_3_desc">Make your diet chart by the help of health experts</string>
+    <string name="start">Join Us</string>
+    <string name="slide_1_title">Welcome </string>
+    <string name="slide_1_desc">Why not have your own chatbot?</string>
+    <string name="slide_2_title">Be special </string>
+    <string name="slide_2_desc">Design your chatbot without a signle line of code </string>
+    <string name="slide_3_title">Get started  </string>
+    <string name="slide_3_desc">Inspire everyone with the power of your ideas and deploy your bot on different platforms </string>
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
+    <string name="Guide">Guide</string>
+    <string name="Quiz">Quiz</string>
+    <string name="field">Choose a field for your chatbot</string>
 
 
 </resources>
