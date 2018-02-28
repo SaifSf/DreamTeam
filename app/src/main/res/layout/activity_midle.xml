@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:columnWidth="320dp"
+    android:orientation="vertical"
+    android:rowCount="2"
+    android:stretchMode="columnWidth"
+    tools:context="com.dreamteam.botsapp.Midle">
+
+    <LinearLayout
+        android:id="@+id/topleft"
+        android:layout_width="90dp"
+        android:layout_height="519dp"
+        android:layout_row="0"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/map"
+
+            />
+
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+
+            android:src="@drawable/chat"
+
+            />
+
+        <ImageView
+            android:id="@+id/list"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+
+            android:src="@drawable/list"
+
+            />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+
+            android:src="@drawable/chat"
+
+            />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+
+            android:src="@drawable/chat"
+
+            />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+
+            android:src="@drawable/chat"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/topright"
+        android:layout_width="299dp"
+        android:layout_height="427dp"
+        android:layout_row="0"
+        android:background="@drawable/shape"
+        android:orientation="horizontal"></LinearLayout>
+
+<Button />
+</GridLayout>

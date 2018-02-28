@@ -14,7 +14,6 @@
         <activity
             android:name=".WelcomActivity"
             android:theme="@style/AppTheme.NoActionBar">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,8 +29,9 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
-
+        <activity
+            android:name=".Midle"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

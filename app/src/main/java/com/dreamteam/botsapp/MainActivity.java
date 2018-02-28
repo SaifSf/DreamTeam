@@ -64,6 +64,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    public void guide(View v)
+    {
+        Intent intent =  new Intent(MainActivity.this,Midle.class);
+        startActivity(intent);
+    }
+
 
     //sign out method
   /*  public void signOut() {
